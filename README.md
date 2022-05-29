@@ -3,7 +3,8 @@
 Template for creating AWS Lambda APIs using CDK. 
 
 ## Usage
-- Install node modules by running `npm install`.
+- Clone the template repository from [https://github.com/azumbro/AWSLambdaAPICDKTemplate](https://github.com/azumbro/AWSLambdaAPICDKTemplate).
+- Navigate to the cloned repository and install Node modules by running `npm install`.
 - In `lib/lambda_api-stack.js`, add the target AWS region and account ID to the `ACCOUNT_SETTINGS` object.
 - In `lib/lambda_api-stack.js`, add an entry to `LAMBDA_FUNCTIONS` for each lambda function/API to create as part of the stack.
     - The `name` field specified the name of the lambda/API.
